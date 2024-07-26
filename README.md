@@ -1,2 +1,8 @@
-# coding_pijamada
-# coding_pijamada
+# Frontend practice
+
+
+## Concepts:
+
+- Semantic HTLM
+- CSS: Flexbox
+- JavaScript basics.
