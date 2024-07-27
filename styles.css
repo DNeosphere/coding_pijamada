@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 
-ul {
+ul, p, h2 {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -113,4 +113,41 @@ footer a:hover {
 .footer-icons svg {
   height: 1.2rem;
   width: 1.2rem;
+}
+
+.character-container {
+  background-color: rgb(60,62,68);
+  color: white;
+  border-radius: 0.5rem;
+  width: 600px;
+  height: 222px;
+  display: flex;
+}
+
+.character-container p {
+  font-size: 18px;
+}
+
+.character-image {
+  width: 35%;
+  height: 100%;
+}
+
+.character-description {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.character-tag {
+  font-size: 1rem;
+  color: rgb(158,158,158);
+}
+
+main {
+  display: flex;
+  padding: 4.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
