@@ -161,3 +161,27 @@ main {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.status {
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+}
+
+.green {
+  background-color: green;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.red {
+  background-color: red;
+}

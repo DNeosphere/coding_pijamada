@@ -18,6 +18,12 @@
   const createCharacters = (data, htmlToInsert) => {
     console.log(data)
     const characterHTMLElements = data.map((character) => {
+      let statusColor = "green"
+        if (character.status === 'Dead'){
+          statusColor= "red"
+        }else if (character.status === "unknown"){
+          statusColor= "gray"
+        }
       return /*html*/ `
       <div class="character-container">
         <div class="character-image">
@@ -26,7 +32,7 @@
         <div class="character-description">
           <div>
             <h2>${character.name}</h2>
-            <div>${character.status}</div>
+            <div class="status-container"><div class="status ${statusColor} "></div>${character.status} - ${character.species}</div>
           </div>
           <div>
             <div class="character-tag">Last known Location:</div>
