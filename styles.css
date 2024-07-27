@@ -102,3 +102,15 @@ footer a:hover {
   color: rgb(255, 152, 0);
   text-decoration: none;
 }
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 7rem;
+}
+
+.footer-icons svg {
+  height: 1.2rem;
+  width: 1.2rem;
+}
